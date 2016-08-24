@@ -29,7 +29,7 @@ function setup(){
   frictButton = createButton('friction off');
   frictButton.position(20,120);
   frictButton.mousePressed(frict);
-  //frictButton.class("sims-button blue");
+  frictButton.class("sim-button blue");
   playButton = createButton('pause');
   playButton.position(100,120);
   playButton.mousePressed(playPause);
